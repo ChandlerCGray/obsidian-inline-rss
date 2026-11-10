@@ -2,6 +2,24 @@
 
 Show the latest posts from RSS and Atom feeds as a table inside any note: a home page, a daily note, a project dashboard, anywhere.
 
+## Installation
+
+From Obsidian:
+
+1. Open **Settings → Community plugins** and turn off **Restricted mode** if it is on.
+2. Select **Browse**, search for **Inline RSS**, then select **Install**.
+3. Select **Enable**.
+
+Manually:
+
+1. Download `main.js`, `manifest.json` and `styles.css` from the [latest release](https://github.com/ChandlerCGray/obsidian-inline-rss/releases/latest).
+2. Put them in `<your vault>/.obsidian/plugins/inline-rss/`.
+3. Reload Obsidian, then enable **Inline RSS** under **Settings → Community plugins**.
+
+## Usage
+
+Add an `inline-rss` code block to any note, with one feed per line. Options are optional.
+
 ````
 ```inline-rss
 max: 15

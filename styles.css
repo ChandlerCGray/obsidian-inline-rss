@@ -1,0 +1,45 @@
+.inline-rss .inline-rss-meta {
+  color: var(--text-faint);
+  font-size: var(--font-smallest);
+  margin-bottom: var(--size-4-2);
+}
+
+.inline-rss .inline-rss-refresh {
+  margin-left: var(--size-4-2);
+  color: var(--text-faint);
+  text-decoration: none;
+}
+
+.inline-rss .inline-rss-refresh:hover {
+  color: var(--text-accent);
+}
+
+.inline-rss table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.inline-rss th,
+.inline-rss td {
+  border: var(--table-border-width, 1px) solid var(--table-border-color, var(--background-modifier-border));
+  padding: var(--size-2-2) var(--size-4-2);
+  text-align: left;
+  vertical-align: top;
+}
+
+.inline-rss th {
+  font-weight: var(--table-header-weight, var(--font-semibold));
+  color: var(--table-header-color, var(--text-normal));
+  background: var(--table-header-background, transparent);
+}
+
+.inline-rss .inline-rss-muted {
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.inline-rss .inline-rss-error {
+  color: var(--text-error);
+  font-size: var(--font-smallest);
+  margin-top: var(--size-4-1);
+}

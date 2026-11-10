@@ -1,0 +1,10 @@
+{
+  "id": "inline-rss",
+  "name": "Inline RSS",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Show the latest posts from RSS and Atom feeds as a table inside any note, using a code block. Nothing is written to your vault.",
+  "author": "Chandler Gray",
+  "authorUrl": "https://www.chandlergray.com",
+  "isDesktopOnly": false
+}

@@ -33,7 +33,7 @@ The Onion | https://theonion.com/feed/
 
 Renders as a table of **Title / Source / Date**, newest first, with an "Updated …" line and a **Refresh** link.
 
-![Inline RSS rendering Hacker News, Obsidian and The Onion in a note](readme_image1.png)
+![Inline RSS rendering Hacker News, Obsidian and The Onion in a note](docs/readme_image1.png)
 
 ## Options
 
